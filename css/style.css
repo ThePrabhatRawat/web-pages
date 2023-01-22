@@ -20,6 +20,7 @@
     align-items: center;
     position: relative;
     top: 0px;
+    flex-wrap: wrap;
     /* border: 2px solid black; */
 }
 
@@ -83,6 +84,7 @@
     padding: 3px 200px;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     justify-content: center;
     height: 560px;
     /* border: 2px solid black; */
@@ -174,6 +176,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .clients img {
@@ -213,6 +216,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding-bottom: 34px;
+    flex-wrap: wrap;
 }
 
 #contactbox form {

@@ -1,5 +1,9 @@
 /* cSS reset */
 
+body{
+    scroll-behavior: smooth;
+    padding: 0;
+}
 * {
     margin: 0;
     padding: 0;
@@ -16,12 +20,16 @@
 /* navigation bar */
 
 #nav {
+    background: black;
     display: flex;
     align-items: center;
+    justify-content:left;
     position: relative;
     top: 0px;
+    position: fixed;
+    width: 100%;
     flex-wrap: wrap;
-    /* border: 2px solid black; */
+    padding: 5px;
 }
 
 
@@ -57,7 +65,7 @@
 #nav ul li {
     /* color: white; */
     list-style: none;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 #nav ul li a {
@@ -80,22 +88,25 @@
 #home {
     display: flex;
     flex-direction: column;
-    /*top/bottom right/left*/
-    padding: 3px 200px;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
     height: 560px;
-    /* border: 2px solid black; */
-}
+    margin-top: 100px;
+    width: 100%;
 
+}
+.front_bg{
+    height: 100%;
+}
 #home::before {
     content: "";
+    height: 100vh;
     position: absolute;
     top: 0px;
     left: 0px;
-    background: url(../img/pexels-ella-olsson-1640772.jpg) center center/cover;
+    background: url(../img/bg.jpg) center center/cover;
     height: 642px;
     width: 100%;
     z-index: -1;
